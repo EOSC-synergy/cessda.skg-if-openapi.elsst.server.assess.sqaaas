@@ -15,64 +15,64 @@ sqa_criteria:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server git:
         commands:
-        - /usr/bin/env sh .sqa/script.chocolate_quirky_echidna.sh
-        container: qc.acc_sapphire_audacious_viper
+        - /usr/bin/env sh .sqa/script.ruby_cranky_quokka.sh
+        container: qc.acc_cream_affectionate_fox
   QC.Doc:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wave_bewildered_reindeer.sh
-        container: qc.doc_snow_ardent_pangolin
+        - /usr/bin/env sh .sqa/script.flamingo_silly_quoll.sh
+        container: qc.doc_beige_melancholy_jellyfish
       github.com/cessda/cessda.skg-if-openapi.elsst.server git:
         commands:
-        - /usr/bin/env sh .sqa/script.claret_sarcastic_crocodile.sh
-        container: qc.doc_royal_loving_stingray
+        - /usr/bin/env sh .sqa/script.marina_sarcastic_squid.sh
+        container: qc.doc_ceru_careful_manta
       github.com/cessda/cessda.skg-if-openapi.elsst.server markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pine_practical_quoll.sh
-        container: qc.doc_wave_scrappy_macaw
+        - /usr/bin/env sh .sqa/script.ochre_articulate_wildcat.sh
+        container: qc.doc_ivory_vigilant_phoenix
   QC.Lic:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.prussian_audacious_barracuda.sh
-        container: qc.lic_thunder_understanding_dragonfly
+        - /usr/bin/env sh .sqa/script.gunmetal_zealous_phoenix.sh
+        container: qc.lic_white_grateful_eel
   QC.Met:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.periwinkle_funny_gibbon.sh
-        container: qc.met_eggplant_jubilant_gorilla
+        - /usr/bin/env sh .sqa/script.wisteria_assured_mongoose.sh
+        container: qc.met_steel_restless_dragon
   QC.Sec:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.ecru_frugal_angelfish.sh
-        container: qc.sec_arctic_friendly_wolverine
+        - /usr/bin/env sh .sqa/script.linen_upbeat_octopus.sh
+        container: qc.sec_marina_courageous_camel
   QC.Sty:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.clove_practical_panda.sh
-        container: qc.sty_salmon_open_condor
+        - /usr/bin/env sh .sqa/script.paprika_shrewd_roadrunner.sh
+        container: qc.sty_cerulean_decisive_echidna
       github.com/cessda/cessda.skg-if-openapi.elsst.server hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.blush_empathetic_roc.sh
-        container: qc.sty_chili_affectionate_raven
+        - /usr/bin/env sh .sqa/script.coral_adventurous_owl.sh
+        container: qc.sty_glaucous_dedicated_python
       github.com/cessda/cessda.skg-if-openapi.elsst.server jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.nutmeg_industrious_cormorant.sh
-        container: qc.sty_frost_productive_flounder
+        - /usr/bin/env sh .sqa/script.papaya_cautious_horse.sh
+        container: qc.sty_maroon_upbeat_termite
   QC.Uni:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.ivory_productive_eel.sh
-        container: qc.uni_blush_shrewd_dragonfly
+        - /usr/bin/env sh .sqa/script.incarnadine_kind_gazelle.sh
+        container: qc.uni_lavender_imaginative_dhole
   QC.Ver:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.emerald_courageous_giraffe.sh
-        container: qc.ver_daffodil_realistic_spider
+        - /usr/bin/env sh .sqa/script.forest_polite_butterfly.sh
+        container: qc.ver_dahlia_tough_frog
 timeout: 5400
